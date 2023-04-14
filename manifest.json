@@ -1,9 +1,19 @@
 {
-    "name": "Calcifi",
-    "short_name": "Hello",
-    "lang": "en-US",
-    "start_url": "/index.html",
-    "display": "standalone",
-    "background_color": "white",
-    "theme_color": "white"
-  }
+  "name": "Calcifi",
+  "short_name": "Calcifi",
+  "icons": [
+     {
+      "src": "images/cf-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }, {
+      "src": "images/cf-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }],
+  "lang": "en-US",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "white",
+  "theme_color": "white"
+}
